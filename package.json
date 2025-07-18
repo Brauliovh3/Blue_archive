@@ -16,7 +16,7 @@
     "anime",
     "gaming"
   ],
-  "author": "Tu Nombre",
+  "author": "DEPOOL",
   "license": "MIT",
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.7",
@@ -33,7 +33,7 @@
     "g-i-s": "^2.1.6",
     "google-it": "^1.6.4",
     "human-readable": "^0.2.1",
-    "jimp": "^0.22.10",
+    "jimp": "^0.16.1",
     "jsdom": "^22.1.0",
     "lowdb": "^1.0.0",
     "moment-timezone": "^0.5.43",
@@ -61,10 +61,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tu-usuario/blue-archive-bot.git"
+    "url": "git+https://github.com/Brauliovh3/Blue_archive.git"
   },
   "bugs": {
-    "url": "https://github.com/tu-usuario/blue-archive-bot/issues"
+    "url": "https://github.com/Brauliovh3/Blue_archive/issues"
   },
-  "homepage": "https://github.com/tu-usuario/blue-archive-bot#readme"
+  "homepage": "https://github.com/Brauliovh3/Blue_archive#readme"
 }
