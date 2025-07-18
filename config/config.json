@@ -1,0 +1,66 @@
+{
+  "botName": "Blue Archive Bot",
+  "botVersion": "3.0.0",
+  "prefix": ".",
+  "admins": [
+    "51988514570@s.whatsapp.net"
+  ],
+  "owner": "51988514570@s.whatsapp.net",
+  "timezone": "America/Argentina/Buenos_Aires",
+  "language": "es",
+  "features": {
+    "antiSpam": true,
+    "antiLink": true,
+    "welcome": true,
+    "autoRespond": true,
+    "premium": true,
+    "nsfw": false,
+    "games": true,
+    "stickers": true,
+    "music": true,
+    "images": true
+  },
+  "limits": {
+    "message": 100,
+    "download": 50,
+    "upload": 30,
+    "premium": 500
+  },
+  "apis": {
+    "lolhuman": "YOUR_API_KEY_HERE",
+    "zenzapis": "YOUR_API_KEY_HERE",
+    "xteam": "YOUR_API_KEY_HERE",
+    "removebg": "YOUR_API_KEY_HERE",
+    "openai": "YOUR_API_KEY_HERE"
+  },
+  "database": {
+    "mongodb": "mongodb://localhost:27017/blueArchiveBot",
+    "useLocal": true
+  },
+  "messages": {
+    "wait": "⏳ Espera un momento...",
+    "done": "✅ Listo!",
+    "error": "❌ Error:",
+    "success": "✅ Éxito:",
+    "warning": "⚠️ Advertencia:",
+    "info": "ℹ️ Información:",
+    "premium": "👑 Esta función es solo para usuarios premium",
+    "admin": "👮‍♂️ Solo administradores pueden usar este comando",
+    "owner": "👑 Solo el propietario puede usar este comando",
+    "group": "👥 Este comando solo funciona en grupos",
+    "private": "🔒 Este comando solo funciona en chat privado",
+    "botAdmin": "🤖 El bot necesita ser administrador para usar esta función",
+    "registered": "📝 Necesitas registrarte primero. Usa /register",
+    "cooldown": "⏰ Espera {time} segundos antes de usar este comando otra vez"
+  },
+  "stickers": {
+    "packName": "Blue Archive Stickers",
+    "authorName": "Blue Archive Bot",
+    "quality": 50
+  },
+  "autoBackup": {
+    "enabled": true,
+    "interval": 3600000,
+    "maxBackups": 5
+  }
+}
